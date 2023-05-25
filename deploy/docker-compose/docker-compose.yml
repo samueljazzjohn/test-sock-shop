@@ -176,6 +176,7 @@ services:
   integration-test:
     build:
       context: ../../integration-test
+      dockerfile: Dockerfile
     depends_on:
       - front-end
       - catalogue
