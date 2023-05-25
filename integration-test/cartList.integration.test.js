@@ -9,8 +9,8 @@ test('Register a customer and verify updated customer list', async () => {
             email:'test@gmail.com',
             firstName:'test',
             lastName:'test',
-            password:'testpassword22',
-            username:'testuser22'
+            password:'testpassword25',
+            username:'testuser25'
           });
 
   expect(registerResponse.status).toBe(200);
